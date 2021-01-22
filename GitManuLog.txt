@@ -1,0 +1,222 @@
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac
+$ Git init
+Initialized empty Git repository in D:/proExercise/codePrace/bootstrapprac/.git/
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .babelrc
+        .editorconfig
+        .gitignore
+        .postcssrc.js
+        README.md
+        build/
+        config/
+        index.html
+        package.json
+        src/
+        static/
+        test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git add .
+warning: LF will be replaced by CRLF in .babelrc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .postcssrc.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in build/build.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in build/check-versions.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in build/utils.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in build/vue-loader.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in build/webpack.base.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in build/webpack.dev.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in build/webpack.prod.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/dev.env.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/prod.env.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/test.env.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.vue.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/HelloWorld.vue.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/router/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test/e2e/custom-assertions/elementCount.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test/e2e/nightwatch.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test/e2e/runner.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test/e2e/specs/test.js.
+The file will have its original line endings in your working directory
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git commit -m 'ininital'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'tlcb@DESKTOP-1DD9HS4.(none)')
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git config --global user.name highhig
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git config --global user.email '1476173930@qq.com'
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git remote add origin https://github.com/highhig/bootstrapLeanrn.git
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/highhig/bootstrapLeanrn.git'
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git pull origin master
+fatal: couldn't find remote ref master
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git branch
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git add .
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git commit -m 'ceshi'
+[master (root-commit) 8919dcc] ceshi
+ 29 files changed, 1097 insertions(+)
+ create mode 100644 .babelrc
+ create mode 100644 .editorconfig
+ create mode 100644 .gitignore
+ create mode 100644 .postcssrc.js
+ create mode 100644 README.md
+ create mode 100644 build/build.js
+ create mode 100644 build/check-versions.js
+ create mode 100644 build/logo.png
+ create mode 100644 build/utils.js
+ create mode 100644 build/vue-loader.conf.js
+ create mode 100644 build/webpack.base.conf.js
+ create mode 100644 build/webpack.dev.conf.js
+ create mode 100644 build/webpack.prod.conf.js
+ create mode 100644 config/dev.env.js
+ create mode 100644 config/index.js
+ create mode 100644 config/prod.env.js
+ create mode 100644 config/test.env.js
+ create mode 100644 index.html
+ create mode 100644 package.json
+ create mode 100644 src/App.vue
+ create mode 100644 src/assets/logo.png
+ create mode 100644 src/components/HelloWorld.vue
+ create mode 100644 src/main.js
+ create mode 100644 src/router/index.js
+ create mode 100644 static/.gitkeep
+ create mode 100644 test/e2e/custom-assertions/elementCount.js
+ create mode 100644 test/e2e/nightwatch.conf.js
+ create mode 100644 test/e2e/runner.js
+ create mode 100644 test/e2e/specs/test.js
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git branch
+* master
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git log
+commit 8919dcc76d172ddaa739aaca5c5e1630beb93ae0 (HEAD -> master)
+Author: highhig <1476173930@qq.com>
+Date:   Tue Jan 19 20:15:55 2021 +0800
+
+    ceshi
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 612 bytes | 68.00 KiB/s, done.
+From https://github.com/highhig/bootstrapLeanrn
+ * [new branch]      main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git push -u origin master
+fatal: 已取消一个任务。
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (33/33), done.
+Writing objects: 100% (41/41), 20.21 KiB | 862.00 KiB/s, done.
+Total 41 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/highhig/bootstrapLeanrn/pull/new/master
+remote:
+To https://github.com/highhig/bootstrapLeanrn.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git pull^C
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git remote -v
+origin  https://github.com/highhig/bootstrapLeanrn.git (fetch)
+origin  https://github.com/highhig/bootstrapLeanrn.git (push)
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ git remote show
+origin
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$ ^C
+
+tlcb@DESKTOP-1DD9HS4 MINGW64 /d/proExercise/codePrace/bootstrapprac (master)
+$
